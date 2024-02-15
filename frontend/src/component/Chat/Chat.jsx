@@ -11,7 +11,7 @@ import toast from 'react-hot-toast';
 
 let socket;
 
-const ENDPOINT = "https://chatbackendapp-bxqr.onrender.com";
+const ENDPOINT = "https://chatbackendapp-bxqr.onrender.com/";
 
 const Chat = () => {
     const [id, setid] = useState("");
